@@ -1,0 +1,21 @@
+.wrapper {
+    max-width: 10em;
+    border-radius: 0.5em;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media (max-width: 520px) {
+    .wrapper {
+        width: 8em;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 350px) {
+    .wrapper {
+        width: 7em;
+        margin: 0 auto;
+    }
+}

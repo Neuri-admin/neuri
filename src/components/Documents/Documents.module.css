@@ -1,0 +1,42 @@
+.nav_bg {
+    background-color: #0d1d31;
+    height: 6.25em;
+  }
+  
+  .width_wrapper {
+    background-color: #122135;
+    padding-bottom: 1.5em;
+    min-height: 60vh;
+  }
+
+.wrapper {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.documents {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    color: #FFFFFF;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.link:hover {
+    color: #860052;
+}
+
+@media (max-width: 800px) {
+    .wrapper {
+        width: 85%;
+    }
+}
+
+@media (max-width: 550px) {
+    .wrapper {
+        width: 90%;
+    }
+}

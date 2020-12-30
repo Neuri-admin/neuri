@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img_wrapper {
+    position: relative;
+    background-color: #860052;
+    width: 10em;
+    height: 10em;
+    overflow: hidden;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+
+.icon {
+    color: #FFFFFF;
+    font-size: 3em;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img {
+    flex-basis: 1;
+}
+
+.img:hover {
+    opacity: 0.3;
+}
+
+.name {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.role {
+    text-transform: uppercase;
+    color: #860052;
+    font-weight: 900;
+    text-align: center;
+    word-wrap: normal;
+}
+
+@media (max-width: 650px) {
+    .role {
+        width: min-content;
+    }
+}
