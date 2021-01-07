@@ -10,7 +10,6 @@ date: 2020-09-16
 thumbnail_author: Neuri 2020 team
 title: Deadline Reminder 2020!
 language: en
-thumbnail_author: josipa
 description: Dear colleagues! We would like to remind you that the deadline for
   registration and abstract submission is 16th February 2020!
 ---
