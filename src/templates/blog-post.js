@@ -29,7 +29,7 @@ const BlogPostTemplate = ({ data }) => {
             <Img
               className={styles.img}
               fluid={postImg}
-              alt={`Photo by ${post.frontmatter.thumbnailAuthor}`}
+              alt={`Photo by ${post.frontmatter.thumbnail_author}`}
             />
           </header>
           <section dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -66,7 +66,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        thumbnailAuthor
+        thumbnail_author
       }
     }
   }

@@ -7,7 +7,7 @@ hashtags:
 thumbnail: josipa-kajic.jpg
 lang: en
 date: 2020-09-16
-thumbnailAuthor: Neuri 2020 team
+thumbnail_author: Neuri 2020 team
 title: Deadline Reminder 2020!
 language: en
 thumbnail_author: josipa

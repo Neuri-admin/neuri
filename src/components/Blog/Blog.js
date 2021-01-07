@@ -32,7 +32,7 @@ const Blog = () => {
                   }
                 }
               }
-              thumbnailAuthor
+              thumbnail_author
               lang
             }
             fields {
@@ -59,7 +59,7 @@ const Blog = () => {
                   <Img
                     className={styles.img}
                     fluid={node.frontmatter.thumbnail.childImageSharp.fluid}
-                    alt={`Photo by ${node.frontmatter.thumbnailAuthor} on Unsplash`}
+                    alt={`Photo by ${node.frontmatter.thumbnail_author} on Unsplash`}
                   />
                 </LocalizedLink>
                 <p className={styles.date}>

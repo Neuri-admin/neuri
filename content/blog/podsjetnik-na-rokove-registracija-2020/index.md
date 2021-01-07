@@ -3,7 +3,7 @@ title: Podsjetnik na rokove registracija!
 date: "2020-09-16"
 description: Drage kolegice i kolege! Podsjećamo vas da su registracije otvorene još mjesec dana.
 thumbnail: ./important-dates.jpeg
-thumbnailAuthor: Neuri 2020 team
+thumbnail_author: Neuri 2020 team
 hashtags: ["rok", "neuri", "2020", "podsjetnik"]
 lang: hr
 ---
