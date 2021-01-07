@@ -1,11 +1,18 @@
 ---
-title: Deadline Reminder 2020!
-date: "2020-09-16"
-description: Dear colleagues! We would like to remind you that the deadline for registration and abstract submission is 16th February 2020!
-thumbnail: ./important-dates.jpeg
-thumbnailAuthor: Neuri 2020 team
-hashtags: ["deadline", "neuri", "2020", "reminder"]
+hashtags:
+  - deadline
+  - neuri
+  - "2020"
+  - reminder
+thumbnail: josipa-kajic.jpg
 lang: en
+date: 2020-09-16
+thumbnailAuthor: Neuri 2020 team
+title: Deadline Reminder 2020!
+language: en
+thumbnail_author: josipa
+description: Dear colleagues! We would like to remind you that the deadline for
+  registration and abstract submission is 16th February 2020!
 ---
 
 ## Deadline Reminder!
