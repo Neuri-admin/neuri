@@ -22,7 +22,7 @@ const HomeBlog = () => {
             id
             frontmatter {
               title
-              date(formatString: "DD MMMM, YYYY", locale: "hr")
+              date(formatString: "DD MMMM, YYYY")
               description
               thumbnail {
                 childImageSharp {

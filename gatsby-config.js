@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/assets/images`,
+        path: `${__dirname}/static/assets/images`,
         name: `images`,
       },
     },
@@ -55,7 +55,7 @@ module.exports = {
             options: {
               // [Optional] The root of "media_folder" in your config.yml
               // Defaults to "static"
-              staticFolderName: 'src',
+              staticFolderName: 'static',
             },
           },
           {
@@ -102,7 +102,7 @@ module.exports = {
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
         // display: `minimal-ui`,
-        icon: `src/assets/images/neuri_pwa_logo.png`,
+        icon: `static/assets/images/neuri_pwa_logo.png`,
       },
     },
     {

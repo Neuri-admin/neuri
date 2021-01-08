@@ -2,7 +2,7 @@ team:
   - name: Josipa Kajić
     role_hr: Predsjednica
     role_en: President
-    image: assets/img/josipa-kajic.jpg
+    image: assets/images/josipa-kajic.jpg
     description_hr: Moje ime je Josipa Kajić. Studentica sam medicine. Inače sam
       Zagrepčanka rođena u Ukrajini koja se uspjela naviknuti na ludo riječko
       vrijeme. Od malih nogu sam postavljala previše pitanja o mozgu pa je
@@ -16,7 +16,7 @@ team:
   - name: Emina Horvat Velić
     role_hr: Glavna Tajnica
     role_en: Head Secretary
-    image: assets/img/josipa-kajic.jpg
+    image: assets/images/josipa-kajic.jpg
     description_hr: Studentica sam preddiplomskog studija biologije (PMF Zagreb).
       Osim što previše gledam serije, bavim se borilačkim vještinama,
       fotografijom i plakanjem nad činjenicom da na laptopu ne mogu pokrenuti
@@ -30,7 +30,7 @@ team:
   - name: Josipa Kajić
     role_hr: Predsjednica
     role_en: President
-    image: assets/img/josipa-kajic.jpg
+    image: assets/images/josipa-kajic.jpg
     description_hr: Moje ime je Josipa Kajić. Studentica sam medicine. Inače sam
       Zagrepčanka rođena u Ukrajini koja se uspjela naviknuti na ludo riječko
       vrijeme. Od malih nogu sam postavljala previše pitanja o mozgu pa je
@@ -44,7 +44,7 @@ team:
   - name: Josipa Kajić
     role_hr: Predsjednica
     role_en: President
-    image: assets/img/josipa-kajic.jpg
+    image: assets/images/josipa-kajic.jpg
     description_hr: Moje ime je Josipa Kajić. Studentica sam medicine. Inače sam
       Zagrepčanka rođena u Ukrajini koja se uspjela naviknuti na ludo riječko
       vrijeme. Od malih nogu sam postavljala previše pitanja o mozgu pa je
@@ -58,7 +58,7 @@ team:
   - name: Josipa Kajić
     role_hr: Predsjednica
     role_en: President
-    image: assets/img/josipa-kajic.jpg
+    image: assets/images/josipa-kajic.jpg
     description_hr: Moje ime je Josipa Kajić. Studentica sam medicine. Inače sam
       Zagrepčanka rođena u Ukrajini koja se uspjela naviknuti na ludo riječko
       vrijeme. Od malih nogu sam postavljala previše pitanja o mozgu pa je
@@ -72,7 +72,7 @@ team:
   - name: Josipa Kajić
     role_hr: Predsjednica
     role_en: President
-    image: assets/img/josipa-kajic.jpg
+    image: assets/images/josipa-kajic.jpg
     description_hr: Moje ime je Josipa Kajić. Studentica sam medicine. Inače sam
       Zagrepčanka rođena u Ukrajini koja se uspjela naviknuti na ludo riječko
       vrijeme. Od malih nogu sam postavljala previše pitanja o mozgu pa je
@@ -86,7 +86,7 @@ team:
   - name: Josipa Kajić
     role_hr: Predsjednica
     role_en: President
-    image: assets/img/josipa-kajic.jpg
+    image: assets/images/josipa-kajic.jpg
     description_hr: Moje ime je Josipa Kajić. Studentica sam medicine. Inače sam
       Zagrepčanka rođena u Ukrajini koja se uspjela naviknuti na ludo riječko
       vrijeme. Od malih nogu sam postavljala previše pitanja o mozgu pa je
@@ -100,7 +100,7 @@ team:
   - name: Josipa Kajić
     role_hr: Predsjednica
     role_en: President
-    image: assets/img/josipa-kajic.jpg
+    image: assets/images/josipa-kajic.jpg
     description_hr: Moje ime je Josipa Kajić. Studentica sam medicine. Inače sam
       Zagrepčanka rođena u Ukrajini koja se uspjela naviknuti na ludo riječko
       vrijeme. Od malih nogu sam postavljala previše pitanja o mozgu pa je
@@ -111,9 +111,3 @@ team:
       vrijeme. Od malih nogu sam postavljala previše pitanja o mozgu pa je
       upravo neuroznanost područje kojim se želim baviti cijeli život. U
       slobodno vrijeme, ako ga uhvatim, plivam i volontiram.
-  - name: bla bla
-    role_hr: hsushduqd
-    role_en: jdnadn
-    image: assets/img/josipa-kajic.jpg
-    description_hr: adwqd
-    description_en: dqww
