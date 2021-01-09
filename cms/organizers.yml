@@ -37,3 +37,51 @@ team:
     role_en: Book of Abstracts Editor
     role_hr: Urednica knjige sažetaka
     image: assets/images/eva_levatić.jpg
+  - name: Matea Galetić
+    role_en: Scientific Logistics Coordinator
+    role_hr: Koordinatorica znanstvene logistike
+    image: assets/images/matea_galetić.jpg
+    description_hr: Pozdrav svima! Moje ime je Matea Galetić. Dolazim iz Samobora,
+      meni osobno najljepšeg grada Hrvatske 🙂 Studentica sam četvrte godine
+      medicine. U svoje slobodno vrijeme volim pogledati dobru seriju te
+      ispijati kavicu uz obalu. 😎 Ovo mi je prva godina sudjelovanja u NeuRi
+      kongresu te se nadam sklapanju novih prijateljstava, dobroj zabavi i u
+      konačnici, da ću nakon kongresa biti bogatija znanjem iz područja
+      neuroznanosti 😀
+    description_en: Pozdrav svima! Moje ime je Matea Galetić. Dolazim iz Samobora,
+      meni osobno najljepšeg grada Hrvatske 🙂 Studentica sam četvrte godine
+      medicine. U svoje slobodno vrijeme volim pogledati dobru seriju te
+      ispijati kavicu uz obalu. 😎 Ovo mi je prva godina sudjelovanja u NeuRi
+      kongresu te se nadam sklapanju novih prijateljstava, dobroj zabavi i u
+      konačnici, da ću nakon kongresa biti bogatija znanjem iz područja
+      neuroznanosti 😀
+  - name: Vinko Pavlov
+    image: assets/images/vinko-pavlov.jpg
+    description_hr: Pozdrav svima, zovem se Vinko Pavlov i dolazim iz Splita.
+      Student sam 4. godine medicine na Medicinskom fakultetu u Rijeci te prvi
+      put sudjelujem kao član organizacijskog odbora NeuRi kongresa. Volim
+      sklapati nova prijateljstva te se smatram pouzdanim, pristupačnim i
+      komunikativnim. U slobodno vrijeme bavim se SCUBA ronjenjem i čitanjem, a
+      osim toga volim i popit kavu u dobrom društvu (ipak sam dalmatinac).
+    description_en: Pozdrav svima, zovem se Vinko Pavlov i dolazim iz Splita.
+      Student sam 4. godine medicine na Medicinskom fakultetu u Rijeci te prvi
+      put sudjelujem kao član organizacijskog odbora NeuRi kongresa. Volim
+      sklapati nova prijateljstva te se smatram pouzdanim, pristupačnim i
+      komunikativnim. U slobodno vrijeme bavim se SCUBA ronjenjem i čitanjem, a
+      osim toga volim i popit kavu u dobrom društvu (ipak sam dalmatinac).
+    role_en: Scientific Logistics Coordinator
+    role_hr: Koordinator znanstvene logistike
+  - role_hr: Koordinatorica znanstvene logistike
+    role_en: Scientific Logistics Coordinators
+    image: assets/images/karla_havidić.jpeg
+    description_hr: Ja sam Karla Havidić. Dolazim iz Velike Gorice i studentica sam
+      treće godine medicine. U slobodno vrijeme bavim se plesom i uživam u
+      druženju s pozitivnim ljudima. Neuroznanost mi postavlja zanimljivo
+      pitanje povezanosti uma i samog tijela, nadam se da ćemo neke od odgovora
+      pronaći skupa!
+    description_en: Ja sam Karla Havidić. Dolazim iz Velike Gorice i studentica sam
+      treće godine medicine. U slobodno vrijeme bavim se plesom i uživam u
+      druženju s pozitivnim ljudima. Neuroznanost mi postavlja zanimljivo
+      pitanje povezanosti uma i samog tijela, nadam se da ćemo neke od odgovora
+      pronaći skupa!
+    name: Karla Havidić
