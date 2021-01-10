@@ -27,6 +27,20 @@ team:
       provesti u šetnji, a kad ga se dovoljno skupi volim i negdje otputovati.
       Veselim se organizaciji ovogodišnjeg kongresa te se radujem novim
       iskustvima i izazovima koje će sa sobom donijeti. "
+  - name: Tina Župetić
+    description_hr: Zovem se Tina Župetić i studentica sam 3. godine medicine u
+      Rijeci. Zbog svog velikog zanimanja za sve u vezi mozga odlučila sam se
+      ove godine pridružiti timu NeuRi-ja i mogu reći da se i više nego veselim
+      vidjeti realizirani kongres. Osim svega vezanoga uz faks, u slobodno
+      vrijeme volim pokoje putovanje, fotografiju i dobar film ili knjigu.
+    description_en: Zovem se Tina Župetić i studentica sam 3. godine medicine u
+      Rijeci. Zbog svog velikog zanimanja za sve u vezi mozga odlučila sam se
+      ove godine pridružiti timu NeuRi-ja i mogu reći da se i više nego veselim
+      vidjeti realizirani kongres. Osim svega vezanoga uz faks, u slobodno
+      vrijeme volim pokoje putovanje, fotografiju i dobar film ili knjigu.
+    role_en: Secretary
+    role_hr: Tajnica
+    image: assets/images/tina_župetić.jpg
   - name: Eva Levatić
     description_hr: Ja sam Eva, studentica 4.godine medicine. Dio sam ovog kongresa
       jer me zanima neuroznanost. Takoder, smatram ovo dobrom prilikom za
@@ -85,3 +99,85 @@ team:
       pitanje povezanosti uma i samog tijela, nadam se da ćemo neke od odgovora
       pronaći skupa!
     name: Karla Havidić
+  - name: Petra Petanjek
+    description_hr: Moje ime je Petra Petanjek i studentica sam medicine u Rijeci.
+      Kada nisam zaokupljena faksom, volim piti kave s frendovima i gledati
+      filmove.
+    description_en: Moje ime je Petra Petanjek i studentica sam medicine u Rijeci.
+      Kada nisam zaokupljena faksom, volim piti kave s frendovima i gledati
+      filmove.
+    image: assets/images/petra_petanjek-.jpeg
+    role_en: Resources Coordinator
+    role_hr: Koordinatorica resursa
+  - name: Marija Grković
+    description_hr: Ja sam Marija Grković i dolazim iz najljepšeg grada-Zadra.
+      Studentica sam četvrte  godine medicine u Rijeci, a ove godine po prvi put
+      sudjelujem u organizaciji NeuRi-ja. Veselim se novom iskustvu i
+      upoznavanju zanimljivih ljudi.
+    description_en: Ja sam Marija Grković i dolazim iz najljepšeg grada-Zadra.
+      Studentica sam četvrte  godine medicine u Rijeci, a ove godine po prvi put
+      sudjelujem u organizaciji NeuRi-ja. Veselim se novom iskustvu i
+      upoznavanju zanimljivih ljudi.
+    image: assets/images/marija_grković.jpg
+    role_en: Resources Coordinator
+    role_hr: Koordinatorica resursa
+  - name: Tea Miletić
+    description_hr: Zovem se Tea, studentica sam medicine i dolazim iz Poreča. Kada
+      nisam za knjigom volim druženja sa prijateljima, šetnje uz more i čim mi
+      se pruži prilika putujem.
+    description_en: Zovem se Tea, studentica sam medicine i dolazim iz Poreča. Kada
+      nisam za knjigom volim druženja sa prijateljima, šetnje uz more i čim mi
+      se pruži prilika putujem.
+    image: assets/images/tea_miletić.jpg
+    role_en: Dietary Coordinator
+    role_hr: Koordinatorica za prehranu
+  - name: "Eugen Car "
+    description_hr: Moje ime je Eugen Car i student sam Medicine na Medicinskom
+      fakultetu u Rijeci. Ovo mi je prva godina na NeuRi-ju, zbog čega sam
+      iznimno sretan i dodatno motiviran. U slobodno vrijeme volim biti aktivan,
+      putovati, upoznavati druge ljude i družiti se. Međutim, uživam i u laganim
+      šetnjama i opuštenom ispijanju kave na suncu.
+    description_en: Moje ime je Eugen Car i student sam Medicine na Medicinskom
+      fakultetu u Rijeci. Ovo mi je prva godina na NeuRi-ju, zbog čega sam
+      iznimno sretan i dodatno motiviran. U slobodno vrijeme volim biti aktivan,
+      putovati, upoznavati druge ljude i družiti se. Međutim, uživam i u laganim
+      šetnjama i opuštenom ispijanju kave na suncu.
+    image: assets/images/eugen_car.jpg
+    role_en: Participant Coordinator
+    role_hr: Koordinator sudionika
+  - name: Marija Mužić
+    description_hr: Studentica sam medicine na Medicinskom fakultetu Sveučilišta u
+      Rijeci. Dolazim sa otoka Cresa. Zanima me neuroznanost zbog čega i jesam
+      dio ovog kongresa. Slobodno vrijeme volim provoditi u prirodi, baviti se
+      sportom i planinariti.
+    description_en: Studentica sam medicine na Medicinskom fakultetu Sveučilišta u
+      Rijeci. Dolazim sa otoka Cresa. Zanima me neuroznanost zbog čega i jesam
+      dio ovog kongresa. Slobodno vrijeme volim provoditi u prirodi, baviti se
+      sportom i planinariti.
+    image: assets/images/marija_mužić.jpeg
+    role_en: Participant Coordinator
+    role_hr: Koordinatorica sudionika
+  - name: Mario Barukčić
+    description_hr: Ja sam Mario Barukčić i student sam 4. godine Medicine. Ovo je
+      moje prvo sudjelovanje na Neuri-ju i velika mi je čast biti dio ove
+      organizacije. Radujem se druženju, novim iskustvima i novim spoznajama na
+      području neuroznanosti.
+    description_en: Ja sam Mario Barukčić i student sam 4. godine Medicine. Ovo je
+      moje prvo sudjelovanje na Neuri-ju i velika mi je čast biti dio ove
+      organizacije. Radujem se druženju, novim iskustvima i novim spoznajama na
+      području neuroznanosti.
+    image: assets/images/mario_barukčić.jpg
+    role_en: Technical Support Coordinator
+    role_hr: Koordinator za tehničku podršku
+  - name: Magda Gajski
+    description_en: Studentica sam 5.godine na Medicinskom fakultetu u Rijeci. Bavim
+      se studentskim aktivizmom od svoje prve godine i to mi je posebna strast.
+      Osim toga jako volim putovanja, upoznavanje novih ljudi i stjecanje novih
+      iskustava 🙂
+    description_hr: Studentica sam 5.godine na Medicinskom fakultetu u Rijeci. Bavim
+      se studentskim aktivizmom od svoje prve godine i to mi je posebna strast.
+      Osim toga jako volim putovanja, upoznavanje novih ljudi i stjecanje novih
+      iskustava 🙂
+    image: assets/images/magda_gajski.jpeg
+    role_en: Social Network Coordinator
+    role_hr: Koordinatorica za društvene mreže
