@@ -7,7 +7,7 @@ import Img from "gatsby-image"
 
 const BlogPostTemplate = ({ data }) => {
   const post = data.markdownRemark
-  const siteTitle = data.site.siteMetadata.title
+  // const siteTitle = data.site.siteMetadata.title
   const slug = post.fields.slug
   const postImg = post.frontmatter.thumbnail.childImageSharp.fluid
   const postImgSrc = postImg.src

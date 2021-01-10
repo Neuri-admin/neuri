@@ -1,12 +1,13 @@
 import React from 'react'
 import styles from './Logo.module.css'
 
-import Img from "gatsby-image"
+const Logo = data => {
 
-const Logo = ({ href, img, alt }) => {
+    const { name, image, link } = data.data;
+
     return (
-            <a href={href} target="_blank" rel="noopener noreferrer" className={styles.wrapper}>
-                <Img className={styles.img} fluid={img} alt={`${alt} logo`} />
+            <a href={link} target="_blank" rel="noopener noreferrer" className={styles.wrapper}>
+                <img className={styles.img} src={image} alt={`${name} logo`} />
             </a>
     )
 }

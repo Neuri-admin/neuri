@@ -17,15 +17,16 @@
 }
 
 .img_wrapper {
-    height: 25em;
     width: 25em;
+    height: 100%;
     border-radius: 1em;
     overflow: hidden;
 }
 
 .img {
-    height: 25em;
-    width: 25em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .name {
@@ -34,6 +35,7 @@
 }
 
 .role {
+    text-align: center;
     font-size: 1.25em;
     color: #860052;
     margin-bottom: 0.5em;

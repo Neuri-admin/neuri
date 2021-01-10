@@ -33,7 +33,6 @@
 @media (max-width: 1200px) {
     .members {
         grid-template-columns: repeat(3, 1fr);
-        width: max-content;
         margin: 0 auto;
     }
 }

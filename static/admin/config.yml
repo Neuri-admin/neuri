@@ -45,7 +45,7 @@ collections:
           - {label: Title 2 Hr, name: title_2_hr, widget: string}
           - {label: Title 1 En, name: title_1_en, widget: string}
           - {label: Title 2 En, name: title_2_en, widget: string}
-          - {label: Countdown Date, name: date, widget: string}
+          - {label: Countdown Date, name: date, widget: datetime}
           - {label: Info Title 1 Hr, name: info_title_1_hr, widget: string}
           - {label: Info Text 1 Hr, name: info_text_1_hr, widget: string}
           - {label: Info Title 1 En, name: info_title_1_en, widget: string}
