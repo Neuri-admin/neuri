@@ -27,6 +27,20 @@ team:
       provesti u šetnji, a kad ga se dovoljno skupi volim i negdje otputovati.
       Veselim se organizaciji ovogodišnjeg kongresa te se radujem novim
       iskustvima i izazovima koje će sa sobom donijeti. "
+  - name: Emina Horvat Velić
+    role_hr: Glavna tajnica
+    role_en: "General secretary "
+    image: assets/images/emina_horvat_velić.jpg
+    description_hr: "Studentica sam preddiplomskog studija biologije (PMF Zagreb).
+      Osim što previše gledam serije, bavim se borilačkim vještinama,
+      fotografijom i plakanjem nad činjenicom da na laptopu ne mogu pokrenuti
+      Metal Gear Solid V: The Phantom Pain. Glavne zadaće na kongresu su mi
+      obrada i kategoriziranje prijava, te korespondencija sa sudionicima."
+    description_en: "Studentica sam preddiplomskog studija biologije (PMF Zagreb).
+      Osim što previše gledam serije, bavim se borilačkim vještinama,
+      fotografijom i plakanjem nad činjenicom da na laptopu ne mogu pokrenuti
+      Metal Gear Solid V: The Phantom Pain. Glavne zadaće na kongresu su mi
+      obrada i kategoriziranje prijava, te korespondencija sa sudionicima."
   - name: Tina Župetić
     description_hr: Zovem se Tina Župetić i studentica sam 3. godine medicine u
       Rijeci. Zbog svog velikog zanimanja za sve u vezi mozga odlučila sam se
@@ -157,6 +171,26 @@ team:
     image: assets/images/marija_mužić.jpeg
     role_en: Participant Coordinator
     role_hr: Koordinatorica sudionika
+  - name: Silvestar Mežnarić
+    description_hr: Moje ime je Silvestar Mežnarić, te već treću godinu studiram na
+      Medicinskom fakultetu u Rijeci na studiju Sanitarno inženjerstvo. Na
+      kongresu sam debitirao 2017. godine kao volonter, te nastavio 2018. u
+      Organizacijskom odboru u tehničkoj službi. Veselim se NeuRi-u i jedan od
+      razloga zbog kojeg sam se i angažirao je to što smatram da je važno
+      prikazati Medicinski fakultet u Rijeci u što boljem izdanju kako u
+      znanstvenom tako i društvenom smislu, ne samo na razini Hrvatske, već i
+      cijele regije.
+    description_en: Moje ime je Silvestar Mežnarić, te već treću godinu studiram na
+      Medicinskom fakultetu u Rijeci na studiju Sanitarno inženjerstvo. Na
+      kongresu sam debitirao 2017. godine kao volonter, te nastavio 2018. u
+      Organizacijskom odboru u tehničkoj službi. Veselim se NeuRi-u i jedan od
+      razloga zbog kojeg sam se i angažirao je to što smatram da je važno
+      prikazati Medicinski fakultet u Rijeci u što boljem izdanju kako u
+      znanstvenom tako i društvenom smislu, ne samo na razini Hrvatske, već i
+      cijele regije.
+    image: assets/images/silvestar_mežnarić.jpg
+    role_hr: Koordinator za tehničku podršku
+    role_en: Technical Support Coordinator
   - name: Mario Barukčić
     description_hr: Ja sam Mario Barukčić i student sam 4. godine Medicine. Ovo je
       moje prvo sudjelovanje na Neuri-ju i velika mi je čast biti dio ove
