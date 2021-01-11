@@ -66,7 +66,7 @@ const HomeHeader = () => {
         }, 1000);
         return () => clearTimeout(timer);
     });
-    
+
     return (
         <section className={styles.wrapper}>
             <section className={styles.main}>
