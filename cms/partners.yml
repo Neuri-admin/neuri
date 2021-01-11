@@ -1,19 +1,4 @@
 partners:
-  - name: Psychiatric Hospital
-    image: assets/images/josipa-kajic.jpg
-    link: https://www.google.com
-  - name: International Organization
-    image: assets/images/josipa-kajic.jpg
-    link: https://www.google.com
-  - name: Psychiatric Hospital
-    image: assets/images/josipa-kajic.jpg
-    link: https://www.google.com
-  - name: International Organization
-    image: assets/images/josipa-kajic.jpg
-    link: https://www.google.com
-  - name: Psychiatric Hospital
-    image: assets/images/josipa-kajic.jpg
-    link: https://www.google.com
-  - name: International Organization
-    image: assets/images/josipa-kajic.jpg
+  - name: Test
+    image: assets/images/blank.png
     link: https://www.google.com
