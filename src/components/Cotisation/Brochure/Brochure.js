@@ -7,12 +7,11 @@ import cms_general from '../../../../cms/general.yml'
 
 const Brochure = props => {
     
-    const { lang } = useTranslations();
+    const { lang, brochureRegisterButton } = useTranslations();
 
     const { register_link } = cms_general
 
-    const { buttonText } = props
-    const { brochure_title_en, brochure_title_hr, brochure_price, perks } = props.cms
+    const { brochure_title_en, brochure_title_hr, brochure_price, perks } = props.data
 
     const title = lang === 'en' ? brochure_title_en : brochure_title_hr;
 
@@ -32,7 +31,7 @@ const Brochure = props => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`${styles_global.button} ${styles.button}`}
-            >{buttonText}
+            >{brochureRegisterButton}
             </a>
         </section>
     )

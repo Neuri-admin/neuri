@@ -76,47 +76,65 @@ collections:
           - {label: Image 3, name: image_3, widget: image}
           - {label: Image 4, name: image_4, widget: image}
 
-      - label: "Brochure 1"
-        name: "brochure_1"
-        file: cms/brochure_1.yml
-        fields: 
-          - {label: Brochure Title Hr, name: brochure_title_hr, widget: string}
-          - {label: Brochure Title En, name: brochure_title_en, widget: string}
-          - {label: Brochure Price, name: brochure_price, widget: string}
-          - label: Perks
-            name: perks
+      - label: "Brochures"
+        name: "brochures"
+        file: cms/brochures.yml
+        fields:
+          - label: Brochures
+            name: brochures
             widget: list
-            fields:
-              - {label: Perk Hr, name: perk_hr, widget: string}
-              - {label: Perk En, name: perk_en, widget: string}
+            fields: 
+              - {label: Brochure Title Hr, name: brochure_title_hr, widget: string}
+              - {label: Brochure Title En, name: brochure_title_en, widget: string}
+              - {label: Brochure Price, name: brochure_price, widget: string}
+              - label: Perks
+                name: perks
+                widget: list
+                fields:
+                  - {label: Perk Hr, name: perk_hr, widget: string}
+                  - {label: Perk En, name: perk_en, widget: string}
 
-      - label: "Brochure 2"
-        name: "brochure_2"
-        file: cms/brochure_2.yml
-        fields: 
-          - {label: Brochure Title Hr, name: brochure_title_hr, widget: string}
-          - {label: Brochure Title En, name: brochure_title_en, widget: string}
-          - {label: Brochure Price, name: brochure_price, widget: string}
-          - label: Perks
-            name: perks
-            widget: list
-            fields:
-              - {label: Perk Hr, name: perk_hr, widget: string}
-              - {label: Perk En, name: perk_en, widget: string}
+      # - label: "Brochure 1"
+      #   name: "brochure_1"
+      #   file: cms/brochure_1.yml
+      #   fields: 
+      #     - {label: Brochure Title Hr, name: brochure_title_hr, widget: string}
+      #     - {label: Brochure Title En, name: brochure_title_en, widget: string}
+      #     - {label: Brochure Price, name: brochure_price, widget: string}
+      #     - label: Perks
+      #       name: perks
+      #       widget: list
+      #       fields:
+      #         - {label: Perk Hr, name: perk_hr, widget: string}
+      #         - {label: Perk En, name: perk_en, widget: string}
 
-      - label: "Brochure 3"
-        name: "brochure_3"
-        file: cms/brochure_3.yml
-        fields: 
-          - {label: Brochure Title Hr, name: brochure_title_hr, widget: string}
-          - {label: Brochure Title En, name: brochure_title_en, widget: string}
-          - {label: Brochure Price, name: brochure_price, widget: string}
-          - label: Perks
-            name: perks
-            widget: list
-            fields:
-              - {label: Perk Hr, name: perk_hr, widget: string}
-              - {label: Perk En, name: perk_en, widget: string}
+      # - label: "Brochure 2"
+      #   name: "brochure_2"
+      #   file: cms/brochure_2.yml
+      #   fields: 
+      #     - {label: Brochure Title Hr, name: brochure_title_hr, widget: string}
+      #     - {label: Brochure Title En, name: brochure_title_en, widget: string}
+      #     - {label: Brochure Price, name: brochure_price, widget: string}
+      #     - label: Perks
+      #       name: perks
+      #       widget: list
+      #       fields:
+      #         - {label: Perk Hr, name: perk_hr, widget: string}
+      #         - {label: Perk En, name: perk_en, widget: string}
+
+      # - label: "Brochure 3"
+      #   name: "brochure_3"
+      #   file: cms/brochure_3.yml
+      #   fields: 
+      #     - {label: Brochure Title Hr, name: brochure_title_hr, widget: string}
+      #     - {label: Brochure Title En, name: brochure_title_en, widget: string}
+      #     - {label: Brochure Price, name: brochure_price, widget: string}
+      #     - label: Perks
+      #       name: perks
+      #       widget: list
+      #       fields:
+      #         - {label: Perk Hr, name: perk_hr, widget: string}
+      #         - {label: Perk En, name: perk_en, widget: string}
 
       - label: "Payments"
         name: "payments"
