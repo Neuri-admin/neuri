@@ -64,11 +64,3 @@ brochures:
       - perk_hr: Pratnja i pomoć pri dolasku i pronalasku smještaja
         perk_en: Escort and help upon your arrival/departure and with finding the
           accommodation
-  - brochure_title_hr: test
-    brochure_title_en: test en
-    brochure_price: 129kn
-    perks:
-      - perk_hr: kpk
-        perk_en: kpkp
-      - perk_hr: kpkp
-        perk_en: pkpkpk
