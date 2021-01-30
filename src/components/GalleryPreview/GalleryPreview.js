@@ -3,40 +3,42 @@ import styles from './GalleryPreview.module.css'
 import styles_global from '../../styles/global.module.css'
 
 import { graphql, useStaticQuery } from "gatsby"
-import Img from "gatsby-image"
 
 import LocalizedLink from '../LocalizedLink'
 import useTranslations from '../useTranslations';
 
 const GalleryPreview = ({ title, year }) => {
 
+    console.log(year)
+
     const { archiveGalleryUrl, archiveGalleryShowMore } = useTranslations();
 
-    const data = useStaticQuery(graphql`
-        query MyQuery {
-            images: allFile(filter: {sourceInstanceName: {eq: "images"}}) {
+    const data = useStaticQuery(
+        graphql`
+        query CloudinaryImage {
+            allCloudinaryMedia {
                 edges {
                     node {
-                        relativePath
-                        childImageSharp {
-                            fluid(maxWidth: 2000, quality: 100) {
-                                ...GatsbyImageSharpFluid_withWebp_tracedSVG
+                        secure_url
+                        context {
+                            custom {
+                                year
                             }
                         }
                     }
                 }
             }
-        }
-    `)
+        }`
+    );
 
-    const filtered = data.images.edges.filter(image => image.node.relativePath.includes(`archive/${year}`)).slice(0, 14)
+    const filtered = data.allCloudinaryMedia.edges.filter(image => image.node.context.custom.year === year)
 
     return (
         <section className={styles.wrapper}>
             <h4 className={styles.title}>{title}</h4>
             <section className={styles.images}>
                 {filtered.map((image, index) => (
-                    <Img key={index} className={styles.image} fluid={image.node.childImageSharp.fluid} alt={'alt'} />
+                    <img key={index} className={styles.image} src={image.node.secure_url} alt={`gallery ${index}`} />
                 ))}
             </section>
             <LocalizedLink to={`/${archiveGalleryUrl}`} className={`${styles_global.button} ${styles.button}`}>{archiveGalleryShowMore}</LocalizedLink>

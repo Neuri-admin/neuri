@@ -14,22 +14,37 @@ const Gallery = () => {
     const { lang, archiveBackToHomepage } = useTranslations();
     const { galleries } = cms
 
-    const data = useStaticQuery(graphql`
-        query {
-            images: allFile(filter: {sourceInstanceName: {eq: "images"}}) {
-                edges {
-                    node {
-                        relativePath
-                        childImageSharp {
-                            fluid(maxWidth: 2000, quality: 100) {
-                                ...GatsbyImageSharpFluid_withWebp_tracedSVG
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    `)
+    // const data = useStaticQuery(
+    //     graphql`
+    //     query CloudinaryImage {
+    //         allCloudinaryMedia {
+    //             edges {
+    //                 node {
+    //                     secure_url
+    //                 }
+    //             }
+    //         }
+    //     }`
+    // );
+
+    // const images = data.allCloudinaryMedia.edges;
+
+    // const data = useStaticQuery(graphql`
+    //     query {
+    //         images: allFile(filter: {sourceInstanceName: {eq: "images"}}) {
+    //             edges {
+    //                 node {
+    //                     relativePath
+    //                     childImageSharp {
+    //                         fluid(maxWidth: 2000, quality: 100) {
+    //                             ...GatsbyImageSharpFluid_withWebp_tracedSVG
+    //                         }
+    //                     }
+    //                 }
+    //             }
+    //         }
+    //     }
+    // `)
 
     return (
         <>
@@ -41,9 +56,12 @@ const Gallery = () => {
                             <section key={index}>
                                 <h4 className={styles.title}>{lang === 'en' ? gallery.name_en : gallery.name_hr}</h4>
                                 <section className={styles.images}>
-                                    {data.images.edges.filter(image => image.node.relativePath.includes(`archive/${gallery.year}`)).map((image, index) => (
+                                    {/* {images.map((image, index) => (
+                                        <img key={index} className={styles.image} src={image.node.secure_url} alt={`Cloudinary ${index}`}/>
+                                    ))} */}
+                                    {/* {data.images.edges.filter(image => image.node.relativePath.includes(`archive/${gallery.year}`)).map((image, index) => (
                                         <Img key={index} className={styles.image} fluid={image.node.childImageSharp.fluid} alt={'alt'} />
-                                    ))}
+                                    ))} */}
                                 </section>
                             </section>
                         ))}

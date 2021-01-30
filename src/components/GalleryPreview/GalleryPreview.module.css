@@ -13,10 +13,12 @@
     grid-template-columns: repeat(auto-fit, minmax(8em, 1fr));
     grid-template-rows: 1fr;
     gap: 1em;
+    row-gap: 0em;
 }
 
 .image {
     height: 8em;
+    width: 100%;
     border-radius: 0.5em;
 }
 
