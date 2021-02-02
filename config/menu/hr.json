@@ -3,7 +3,7 @@
     { "name": "Novosti", "link": "/#novosti" },
     { "name": "O Kongresu", "link": "/#o-kongresu" },
     { "name": "Kotizacija", "link": "/#kotizacija" },
-    { "name": "Raspored", "link": "/" },
+    { "name": "Raspored", "link": "/dokumenti" },
     { "name": "Organizatori", "link": "/#organizatori" },
     { "name": "Kontakt", "link": "/#kontakt" },
     { "name": "Arhiva", "link": "/arhiva" }

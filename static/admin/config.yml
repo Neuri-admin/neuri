@@ -33,7 +33,6 @@ collections:
         file: cms/general.yml
         fields: 
           - {label: Register Link, name: register_link, widget: string }
-          - {label: Schedule Link, name: schedule_link, widget: string }
           
       - label: "Homepage"
         name: "homepage"

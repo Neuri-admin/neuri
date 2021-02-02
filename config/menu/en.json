@@ -3,7 +3,7 @@
     { "name": "News", "link": "/#news" },
     { "name": "About", "link": "/#about" },
     { "name": "Pricing", "link": "/#pricing" },
-    { "name": "Schedule", "link": "/" },
+    { "name": "Schedule", "link": "/documents" },
     { "name": "Team", "link": "/#team" },
     { "name": "Contact", "link": "/#contact" },
     { "name": "Archive", "link": "/archive" }
