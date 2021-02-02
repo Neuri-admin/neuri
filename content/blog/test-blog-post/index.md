@@ -1,9 +1,9 @@
 ---
 title: Test Blog Post
-date: 2021-01-07T21:57:37.591Z
-lang: en
-thumbnail: blank.png
-thumbnail_author: Test thumbnail
-description: Test Blog Post for purposes of this description.
+date: 2021-02-02T16:51:02.818Z
+lang: hr
+thumbnail: 11154962_369147849961688_1193011262132888232_o_369147849961688.jpg
+thumbnail_author: Neuri
+description: Ovo je blog post.
 ---
-This is body post markdown again for this very same and very important purpose.
+Lorem ipsum.
