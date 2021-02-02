@@ -193,7 +193,8 @@ collections:
             fields:
               - {label: Name Hr, name: name_hr, widget: string}
               - {label: Name En, name: name_en, widget: string}
-              - {label: Link, name: link, widget: string}
+              - {label: Link Hr, name: link_hr, widget: string}
+              - {label: Link En, name: link_en, widget: string}
           
       - label: "Board"
         name: "board"
