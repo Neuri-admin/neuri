@@ -19,6 +19,9 @@
   "cotisationUrl": "pricing",
   "cotisationTitle": "Entrance Fee",
   "cotisationSubtitle": "",
+  "brochure_1_title": "Sudjelovanje uživo",
+  "brochure_2_title": "Online + materijali",
+  "brochure_3_title": "Online bez materijala",
   "brochureRegisterButton": "Register",
 
   "paymentsTitle": "Payments",

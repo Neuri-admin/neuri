@@ -55,6 +55,9 @@ const query = graphql`
             cotisationUrl
             cotisationTitle
             cotisationSubtitle
+            brochure_1_title
+            brochure_2_title
+            brochure_3_title
             brochureRegisterButton
 
             paymentsTitle

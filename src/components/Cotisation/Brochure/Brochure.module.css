@@ -57,6 +57,13 @@
     text-align: center;
 }
 
+@media (max-width: 1300px) {
+    .wrapper:last-child {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 950px) {
     .wrapper:last-child {
         left: 0;

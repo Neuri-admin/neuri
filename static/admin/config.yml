@@ -75,12 +75,48 @@ collections:
           - {label: Image 3, name: image_3, widget: image}
           - {label: Image 4, name: image_4, widget: image}
 
-      - label: "Brochures"
-        name: "brochures"
-        file: cms/brochures.yml
+      - label: "Brochures 1"
+        name: "brochures_1"
+        file: cms/brochures_1.yml
         fields:
-          - label: Brochures
-            name: brochures
+          - label: Brochures 1
+            name: brochures_1
+            widget: list
+            fields: 
+              - {label: Brochure Title Hr, name: brochure_title_hr, widget: string}
+              - {label: Brochure Title En, name: brochure_title_en, widget: string}
+              - {label: Brochure Price, name: brochure_price, widget: string}
+              - label: Perks
+                name: perks
+                widget: list
+                fields:
+                  - {label: Perk Hr, name: perk_hr, widget: string}
+                  - {label: Perk En, name: perk_en, widget: string}
+
+      - label: "Brochures 2"
+        name: "brochures_2"
+        file: cms/brochures_2.yml
+        fields:
+          - label: Brochures 2
+            name: brochures_2
+            widget: list
+            fields: 
+              - {label: Brochure Title Hr, name: brochure_title_hr, widget: string}
+              - {label: Brochure Title En, name: brochure_title_en, widget: string}
+              - {label: Brochure Price, name: brochure_price, widget: string}
+              - label: Perks
+                name: perks
+                widget: list
+                fields:
+                  - {label: Perk Hr, name: perk_hr, widget: string}
+                  - {label: Perk En, name: perk_en, widget: string}
+
+      - label: "Brochures 3"
+        name: "brochures_3"
+        file: cms/brochures_3.yml
+        fields:
+          - label: Brochures 3
+            name: brochures_3
             widget: list
             fields: 
               - {label: Brochure Title Hr, name: brochure_title_hr, widget: string}
