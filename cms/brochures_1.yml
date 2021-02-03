@@ -1,7 +1,8 @@
 brochures_1:
   - brochure_title_hr: Aktivni
     brochure_title_en: Active
-    brochure_price: "200 HRK (27 EUR) "
+    brochure_price_hr: "200 HRK"
+    brochure_price_en: "27 EUR"
     perks:
       - perk_hr: Sudjelovanje u znanstvenom programu, plenarna predavanja i radionice
         perk_en: Admission to the scientific program, plenary lectures, and workshops
@@ -20,7 +21,8 @@ brochures_1:
         perk_hr: Izlet na otok Rab
   - brochure_title_hr: Aktivni (Sveučilište u Rijeci)
     brochure_title_en: Active (University Of Rijeka)
-    brochure_price: "150 HRK "
+    brochure_price_hr: "200 HRK"
+    brochure_price_en: "27 EUR"
     perks:
       - perk_hr: Sudjelovanje u znanstvenom programu, plenarna predavanja i radionice
         perk_en: Admission to scientific programme, plenary lectures and workshops
@@ -36,7 +38,8 @@ brochures_1:
         perk_hr: Izlet na otok Rab
   - brochure_title_hr: Pasivni
     brochure_title_en: Passive
-    brochure_price: 250 HRK (33 EUR)
+    brochure_price_hr: "200 HRK"
+    brochure_price_en: "27 EUR"
     perks:
       - perk_hr: Sudjelovanje u znanstvenom programu, plenarna predavanja i radionice
         perk_en: Admission to scientific programme, plenary lectures and workshops

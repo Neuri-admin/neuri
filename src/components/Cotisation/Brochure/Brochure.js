@@ -11,9 +11,11 @@ const Brochure = props => {
 
     const { register_link } = cms_general
 
-    const { brochure_title_en, brochure_title_hr, brochure_price, perks } = props.data
+    const { brochure_title_en, brochure_title_hr, brochure_price_hr, brochure_price_en, perks } = props.data
 
     const title = lang === 'en' ? brochure_title_en : brochure_title_hr;
+
+    const brochure_price = lang === 'en' ? brochure_price_en : brochure_price_hr;
 
     return (
         <section className={styles.wrapper}>
