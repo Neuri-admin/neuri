@@ -1,13 +1,16 @@
 documents:
-  - name_hr: NeuRi_2021_Upute_Autorima
-    name_en: NeuRi_2021_Upute_Autorima
-    link: 
-  - name_hr: NeuRi_2021_EN_Instructions_for_authors
-    name_en: NeuRi_2021_EN_Instructions_for_authors
-    link: 
-  - name_hr: NeuRi-2021-Primjer-formatiranja-Formatting-sample
-    name_en: NeuRi-2021-Primjer-formatiranja-Formatting-sample
-    link: 
-  - name_hr: NeuRi_2021_Obrazac_Form
-    name_en: NeuRi_2021_Obrazac_Form
-    link: 
+  - name_hr: Prva obavijest
+    name_en: First notice
+    link: null
+    link_hr: https://drive.google.com/drive/folders/1TK_Bypxo-XRJSK5T9GkQ4gB3M1LeJxvb?usp=sharing
+    link_en: https://drive.google.com/drive/folders/1lUu06s-i-ZhUbHj_vubuw-zuOdOQ3pgs?usp=sharing
+  - name_hr: Upute za aktivne sudionike
+    name_en: Instructions for active participants
+    link: null
+    link_hr: "https://drive.google.com/drive/folders/10U_QlAVMYuD3CVljBj_CICLh5KWej\
+      XFv?usp=sharing "
+    link_en: https://drive.google.com/drive/folders/1jlt1rB4oe0lNjf38YEa3_I4ftGhsqMAl?usp=sharing
+  - name_hr: Obrazac za prijavu
+    name_en: Application form
+    link_hr: https://drive.google.com/drive/folders/1Y6gxEZiGuk0o2nStP4WP0pbw4iBi0qaA?usp=sharing
+    link_en: https://drive.google.com/drive/folders/1Y6gxEZiGuk0o2nStP4WP0pbw4iBi0qaA?usp=sharing
