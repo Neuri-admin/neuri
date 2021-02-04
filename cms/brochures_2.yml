@@ -1,8 +1,8 @@
 brochures_2:
   - brochure_title_hr: Aktivni
     brochure_title_en: Active
-    brochure_price_hr: "200 HRK"
-    brochure_price_en: "27 EUR"
+    brochure_price_hr: 80 kn
+    brochure_price_en: 11 eur
     perks:
       - perk_hr: Sudjelovanje u znanstvenom programu, pristup plenarnim predavanjima i
           radionicama
@@ -13,8 +13,8 @@ brochures_2:
         perk_en: Certificate of active participation
   - brochure_title_hr: Pasivni
     brochure_title_en: Passive
-    brochure_price_hr: "200 HRK"
-    brochure_price_en: "27 EUR"
+    brochure_price_hr: 100 kn
+    brochure_price_en: 13 eur
     perks:
       - perk_hr: Sudjelovanje u znanstvenom programu, pristup plenarnim predavanjima i
           radionicama
