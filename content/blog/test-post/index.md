@@ -1,6 +1,6 @@
 ---
 title: Registration is open for NeuRi 2021!
-date: 2021-02-02T16:38:08.352Z
+date: 2021-02-01T16:38:08.352Z
 lang: en
 thumbnail: post-za-facebook-1080-x-1080-px-v01.jpg
 thumbnail_author: Neuri
