@@ -39,7 +39,7 @@ const Cotisation = () => {
                             ))}
                         </section>
                         <section className={styles.brochure_grid_wrapper_2}>
-                            {brochures_2.map((brochure, index) => (
+                            {brochures_3.map((brochure, index) => (
                                 <Brochure key={index} data={brochure}/>
                             ))}
                         </section>
