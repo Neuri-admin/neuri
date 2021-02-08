@@ -111,13 +111,13 @@ module.exports = {
         name: `Neuri 2021`,
         short_name: `Neuri`,
         start_url: `/`,
-        background_color: `#860052`,
-        theme_color: `#860052`,
+        background_color: `#ef92b4`,
+        theme_color: `#ef92b4`,
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
         // display: `minimal-ui`,
-        icon: `static/assets/images/neuri_pwa_logo.png`,
+        icon: `static/assets/images/neuri-logo.jpg`,
       },
     },
     {

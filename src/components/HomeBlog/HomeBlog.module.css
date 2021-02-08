@@ -5,7 +5,7 @@
 }
 
 .width_wrapper {
-  background-color: #0D1D31;
+  background-color: rgb(83, 186, 103);
   padding-bottom: 3em;
 }
 
@@ -31,7 +31,7 @@
 
 .date {
   margin-bottom: 0.2em;
-  color: #860052;
+  color: rgb(239, 146, 180);
 }
 
 .title {
@@ -42,7 +42,7 @@
 }
 
 .title:hover {
-  color: #860052;
+  color: rgb(239, 146, 180);
 }
 
 .description {

@@ -14,17 +14,17 @@
 }
 
 .divider {
-    color: #435469;
+    color: #FFFFFF;
     font-size: 1.25em;
 }
 
 .subtitle {
-    color: #435469;
+    color: #FFFFFF;
     font-size: 1.25em;
 }
 
 .icon_wrapper {
-    background-color: #860052;
+    background-color: rgb(239, 146, 180);
     padding: 0.75em 1em;
     border-radius: 40%;
     margin-right: 1em;

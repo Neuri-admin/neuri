@@ -5,7 +5,7 @@
   width: 75%;
   left: 50%;
   transform: translate(-50%, 0);
-  z-index: 1;
+  z-index: 2;
   display: none;
   justify-content: space-between;
   align-items: center;
@@ -16,7 +16,7 @@
   position: fixed;
   width: 100vw !important;
   z-index: 3;
-  background-color: #860052;
+  background-color: rgb(239, 146, 180);
   padding: 0.5em 12em;
   transition: ease-in-out 0.5s;
 }
@@ -33,7 +33,7 @@
 }
 
 .nav a:hover {
-  color: #0D1D31;
+  color: rgb(83, 186, 103);
 }
 
 .nav a:not(:last-child) {

@@ -17,7 +17,7 @@ const MobileNav = () => {
 
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "neuri-logo.png" }) {
+      image: file(relativePath: { eq: "neuri-logo.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 2000, quality: 100) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG

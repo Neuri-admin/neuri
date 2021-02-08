@@ -1,12 +1,12 @@
 .nav_bg {
-    background-color: #0d1d31;
+    background-color: rgb(239, 146, 180);
     height: 6.25em;
-  }
-  
-  .width_wrapper {
-    background-color: #122135;
-    padding-bottom: 1.5em;
-  }
+}
+
+.width_wrapper {
+background-color: rgb(83, 186, 103);
+padding-bottom: 1.5em;
+}
 
 .wrapper {
     width: 75%;

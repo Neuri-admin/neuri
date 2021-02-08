@@ -19,7 +19,7 @@
 
 .title_wrapper h4 {
     font-size: 1.5em;
-    color: #475056;
+    color: #000000;
     text-transform: uppercase;
     height: 3.3em;
     display: flex;
@@ -32,7 +32,7 @@
 .price {
     font-size: 3em;
     font-weight: 900;
-    color: #860052;
+    color: rgb(239, 146, 180);
     text-align: center;
     margin-bottom: 0.5em;
     text-shadow: 1px 1px #000000;

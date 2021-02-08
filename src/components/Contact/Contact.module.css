@@ -5,7 +5,7 @@
   }
 
 .width_wrapper {
-    background-color: #122135;
+    background-color: #000000;
     padding-bottom: 3em;
 }
 
@@ -39,8 +39,8 @@
 .form label input, .form label textarea {
     width: 100%;
     padding: 0.25em 0.5em;
-    background-color: #ffffff;
-    border: 1px solid #860052;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(239, 146, 180);
     border-radius: 0.3em;
     margin-top: 0.25em;
 }
@@ -75,7 +75,7 @@
 }
 
 .contact_item_wrapper a {
-    color: #860052;
+    color: rgb(239, 146, 180);
 }
 
 .icon {

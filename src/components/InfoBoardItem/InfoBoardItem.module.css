@@ -13,11 +13,12 @@
     font-size: 1.5em;
     grid-area: icon;
     align-self: center;
+    color: #000000;
 }
 
 .title {
     grid-area: title;
-    color: #860052;
+    color: #000000;
     text-transform: uppercase;
     text-shadow: none;
 }

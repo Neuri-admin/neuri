@@ -12,7 +12,7 @@
 .sticky {
   position: fixed;
   z-index: 3;
-  background-color: #860052;
+  background-color: rgb(239, 146, 180);
   padding: 0.2em 0;
 }
 
@@ -44,7 +44,7 @@
 
 .hamburger_menu_clicked {
   font-size: 1.4em;
-  color: #0D1D31;
+  color: rgb(83, 186, 103);
 }
 
 .nav {
@@ -53,7 +53,7 @@
   top: 10vh;
   left: 0;
   margin-top: 1em;
-  background-color: #0D1D31;
+  background-color: rgb(83, 186, 103);
   display: flex;
   flex-direction: column;
 }
@@ -63,15 +63,15 @@
   font-weight: 600;
   padding: 0.5em 1em;
   text-transform: uppercase;
-  border-bottom: 1px solid #860052;
+  border-bottom: 1px solid rgb(239, 146, 180);
 }
 
 .nav a:hover {
-  color: #860052;
+  color: rgb(239, 146, 180);
 }
 
 .nav a:first-child {
-  border-top: 1px solid #860052;
+  border-top: 1px solid rgb(239, 146, 180);
 }
 
 .collapsed {

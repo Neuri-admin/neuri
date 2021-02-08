@@ -1,6 +1,6 @@
 .wrapper {
     width: 100%;
-    background-color: #122135;
+    background-color: rgb(83, 186, 103);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1em;

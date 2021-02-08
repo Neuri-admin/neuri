@@ -1,5 +1,5 @@
 .width_wrapper {
-    background-color: #122135;
+    background-color: #000000;
     padding-bottom: 2em;
 }
 
@@ -55,7 +55,7 @@
     height: 3.5em;
     width: 3.5em;
     border-radius: 50%;
-    background-color: #860052;
+    background-color: rgb(239, 146, 180);
     margin-right: 1em;
 }
 

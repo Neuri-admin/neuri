@@ -6,7 +6,7 @@
 
 .img_wrapper {
     position: relative;
-    background-color: #860052;
+    background-color: rgb(239, 146, 180);
     width: 10em;
     height: 10em;
     overflow: hidden;
@@ -43,7 +43,7 @@
 
 .role {
     text-transform: uppercase;
-    color: #860052;
+    color: rgb(239, 146, 180);
     font-weight: 900;
     text-align: center;
     word-wrap: normal;
