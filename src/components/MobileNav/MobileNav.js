@@ -30,7 +30,7 @@ const MobileNav = () => {
   return (
     <header className={`${styles.wrapper} ${styles.sticky}`}>
       <section>
-        <Link to="/">
+        <Link to="/" className={styles.logo_wrapper}>
           <Img className={styles.logo} fluid={data.image.childImageSharp.fluid} alt="Neuri logo"/>
         </Link>
         <FontAwesomeIcon

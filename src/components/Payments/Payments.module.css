@@ -1,5 +1,5 @@
 .width_wrapper {
-    background-color: #000000;
+    background-color: rgb(239, 146, 180);
     padding-bottom: 2em;
 }
 
@@ -61,7 +61,7 @@
 
 .icon {
     font-size: 2em;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .bold {

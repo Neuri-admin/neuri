@@ -44,7 +44,7 @@ const DesktopNav = () => {
 
   return (
     <header className={`${styles.wrapper} ${scrolled ? styles.sticky : ''}`}>
-      <LocalizedLink to="/">
+      <LocalizedLink to="/" className={styles.logo_wrapper}>
         <Img className={styles.logo} fluid={data.image.childImageSharp.fluid} alt="Neuri logo"/>
       </LocalizedLink>
       <nav className={styles.nav}>

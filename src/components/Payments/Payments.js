@@ -37,7 +37,7 @@ const Payments = () => {
     return (
         <section className={styles.width_wrapper}>
             <section className={styles.wrapper}>
-                <SectionHeader title={paymentsTitle} subtitle={paymentsSubtitle} icon={'euro-sign'} />
+                <SectionHeader title={paymentsTitle} subtitle={paymentsSubtitle} icon={'euro-sign'} color={'green'}/>
                 <section className={styles.grid}>
                     <section className={styles.payment_methods}>
                         <h4 className={styles.title}>{paymentsMethodsTitle}</h4>

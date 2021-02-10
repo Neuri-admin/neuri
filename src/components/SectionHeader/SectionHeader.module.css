@@ -23,6 +23,13 @@
     font-size: 1.25em;
 }
 
+.icon_wrapper_green {
+    background-color: rgb(83, 186, 103);
+    padding: 0.75em 1em;
+    border-radius: 40%;
+    margin-right: 1em;
+}
+
 .icon_wrapper {
     background-color: rgb(239, 146, 180);
     padding: 0.75em 1em;
@@ -33,6 +40,7 @@
 .icon {
     font-size: 1.25em;
     text-align: center;
+    color: #000000;
 }
 
 @media (max-width: 1000px) {

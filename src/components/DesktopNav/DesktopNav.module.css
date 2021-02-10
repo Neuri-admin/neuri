@@ -21,6 +21,12 @@
   transition: ease-in-out 0.5s;
 }
 
+.logo_wrapper {
+  display: block;
+  border-radius: 0.5em;
+  overflow: hidden;
+}
+
 .logo {
   width: 5em;
 }

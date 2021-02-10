@@ -19,7 +19,7 @@ const Contact = () => {
             <section className={styles.nav_offset} id={contactUrl} />
             <section className={styles.width_wrapper}>
                 <section className={styles.wrapper}>
-                    <SectionHeader title={contactTitle} subtitle={contactSubtitle} icon={'address-book'} />
+                    <SectionHeader title={contactTitle} subtitle={contactSubtitle} icon={'address-book'} color={'green'}/>
                     <section className={styles.grid}>
                         <form name="Contact Form" method="POST" data-netlify="true" className={styles.form}>
                             <input type="hidden" name="form-name" value="Contact Form" />

@@ -40,6 +40,8 @@
     color: rgb(239, 146, 180);
     margin-bottom: 0.5em;
     margin-top: 0.25em;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px #000000;
 }
 
 .description {

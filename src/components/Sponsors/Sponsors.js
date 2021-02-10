@@ -17,7 +17,7 @@ const Sponsors = () => {
     return (
         <section className={styles.width_wrapper}>
             <section className={styles.wrapper}>
-                <SectionHeader title={sponsorsTitle} subtitle={sponsorsSubtitle} icon={'thumbs-up'} />
+                <SectionHeader title={sponsorsTitle} subtitle={sponsorsSubtitle} icon={'thumbs-up'} color={'green'}/>
                 <section className={styles.slideshow}>
                     {sponsors.map((sponsor, index) => (
                         <Logo key={index} data={sponsor} />

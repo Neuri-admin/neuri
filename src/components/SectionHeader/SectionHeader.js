@@ -4,10 +4,13 @@ import styles from './SectionHeader.module.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../../utils/fontawesome"
 
-const SectionHeader = ({ title, subtitle, icon }) => {
+const SectionHeader = ({ title, subtitle, icon, color }) => {
+
+    
+
     return (
         <section className={styles.wrapper}>
-            <span className={styles.icon_wrapper}>
+            <span className={`${color === 'green' ? styles.icon_wrapper_green : styles.icon_wrapper}`}>
                 <FontAwesomeIcon className={styles.icon} icon={icon} />
             </span>
             <h3 className={styles.title}>{title}</h3>

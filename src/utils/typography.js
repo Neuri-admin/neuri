@@ -5,8 +5,8 @@ const typography = new Typography({
   baseLineHeight: '1.33',
   headerColor: '#FFFFFF',
   bodyColor: '#eff6ff',
-  headerFontFamily: ['Raleway', 'Roboto', 'Helvetica', 'sans-serif'],
-  bodyFontFamily: ['Raleway', 'Roboto', 'Helvetica', 'serif'],
+  headerFontFamily: ['National Bold', 'Roboto', 'Helvetica', 'sans-serif'],
+  bodyFontFamily: ['National Regular', 'Roboto', 'Helvetica', 'serif'],
   overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
     'h1, h2, h3, h4, h5, h6': {
       marginBottom: '0',

@@ -61,7 +61,7 @@ const About = () => {
             <section className={styles.nav_offset} id={aboutUrl} />
             <section className={styles.width_wrapper}>
                 <section className={styles.wrapper}>
-                    <SectionHeader title={aboutTitle} subtitle={aboutSubtitle} icon={'star'}/>
+                    <SectionHeader title={aboutTitle} subtitle={aboutSubtitle} icon={'star'} color={'green'}/>
                     <p>{text_1}</p>
                     <p>{text_2}</p>
                     <section className={styles.buttons}>

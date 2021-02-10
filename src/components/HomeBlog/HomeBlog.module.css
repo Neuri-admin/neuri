@@ -31,18 +31,18 @@
 
 .date {
   margin-bottom: 0.2em;
-  color: rgb(239, 146, 180);
+  color: #FFFFFF;
 }
 
 .title {
   font-size: 1.5em;
   margin-bottom: 0.5em;
-  color: #FFFFFF;
+  color: rgb(239, 146, 180);
 
 }
 
 .title:hover {
-  color: rgb(239, 146, 180);
+  color: #000000;
 }
 
 .description {

@@ -5,7 +5,7 @@
   }
 
 .width_wrapper {
-    background-color: #000000;
+    background-color: rgb(239, 146, 180);
     padding-bottom: 3em;
 }
 
@@ -47,6 +47,7 @@
 
 .form button {
     margin-top: 1em;
+    background-color: rgb(83, 186, 103);
 }
 
 .contact_info {
@@ -56,6 +57,8 @@
 .info_title {
     font-size: 1.1em;
     margin-bottom: 1em;
+    color: #000000;
+    text-shadow: none;
 }
 
 .info .info_title {
@@ -81,6 +84,7 @@
 .icon {
     font-size: 1.25em;
     margin-right: 0.5em;
+    color: #000000;
 }
 
 @media (max-width: 1366px) {
