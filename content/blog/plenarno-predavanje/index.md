@@ -8,8 +8,6 @@ description: prof. David C. Rubinsztein
 ---
 <!--StartFragment-->
 
-![🧠](https://static.xx.fbcdn.net/images/emoji.php/v9/t7c/1/16/1f9e0.png) Plenarno predavanje // Plenary lecture ![🧠](https://static.xx.fbcdn.net/images/emoji.php/v9/t7c/1/16/1f9e0.png)
-
 Drage kolegice i kolege,
 
 u sljedećih nekoliko objava predstavit ćemo vam ovogodišnje predavače kao i teme predavanja te radionica. ![😊](https://static.xx.fbcdn.net/images/emoji.php/v9/t7f/1/16/1f60a.png)
