@@ -4,7 +4,7 @@ date: 2021-02-13T17:11:46.421Z
 lang: en
 thumbnail: neuri-david-rubinsztein.jpg
 thumbnail_author: "Vinko "
-description: David C. Rubinsztein, PhD
+description: David C. Rubinsztein, MB ChB, PhD
 ---
 <!--StartFragment-->
 
