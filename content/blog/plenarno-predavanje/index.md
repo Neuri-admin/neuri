@@ -4,7 +4,7 @@ date: 2021-02-13T17:09:11.668Z
 lang: hr
 thumbnail: neuri-david-rubinsztein.jpg
 thumbnail_author: Vinko
-description: prof. David C. Rubinsztein
+description: prof.dr.sc.David C. Rubinsztein
 ---
 <!--StartFragment-->
 
