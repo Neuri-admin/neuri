@@ -1,5 +1,5 @@
 ---
-title: Plenarno predavanje
+title: Plenarno predavanje (1)
 date: 2021-02-13T17:09:11.668Z
 lang: hr
 thumbnail: neuri-david-rubinsztein.jpg
