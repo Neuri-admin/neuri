@@ -1,5 +1,5 @@
 ---
-title: "Plenary lecture "
+title: Plenary lecture (1)
 date: 2021-02-13T17:11:46.421Z
 lang: en
 thumbnail: neuri-david-rubinsztein.jpg
