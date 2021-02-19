@@ -1,5 +1,5 @@
 ---
-title: Plenary lecture
+title: Plenary lecture (2)
 date: 2021-02-16T18:29:24.680Z
 lang: en
 thumbnail: neuri-ivica-grkovic.jpg
