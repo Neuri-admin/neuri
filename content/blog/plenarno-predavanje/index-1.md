@@ -4,7 +4,7 @@ date: 2021-02-16T18:26:22.043Z
 lang: hr
 thumbnail: neuri-ivica-grkovic.jpg
 thumbnail_author: Vinko
-description: prof. dr. sc. Ivica Grković, dr. med
+description: prof. dr. sc. Ivica Grković, dr. med.
 ---
 <!--StartFragment-->
 
