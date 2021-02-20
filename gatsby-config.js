@@ -117,7 +117,7 @@ module.exports = {
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: `standalone`,
         // display: `minimal-ui`,
-        icon: `static/assets/images/neuri-logo.jpg`,
+        icon: `static/assets/images/neuri-logo-white.jpg`,
       },
     },
     {
