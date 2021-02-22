@@ -1,5 +1,5 @@
 ---
-title: Plenarno predavanje (3)
+title: Plenarno predavanje (4)
 date: 2021-02-22T14:26:02.397Z
 lang: hr
 thumbnail: neuri-mirza-pojskic.jpg
