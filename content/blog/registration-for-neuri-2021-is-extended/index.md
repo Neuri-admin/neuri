@@ -4,7 +4,7 @@ date: 2021-03-05T14:25:22.743Z
 lang: en
 thumbnail: facebook-important-dates-1080x1080-px.jpg
 thumbnail_author: Vinko
-description: New deadlines
+description: New deadlines for registration
 ---
 Dear colleagues,
 
