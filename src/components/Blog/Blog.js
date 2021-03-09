@@ -73,7 +73,7 @@ const Blog = () => {
             ))}
           </section>
           <LocalizedLink
-            to="/blog"
+            to="/"
             className={`${styles_global.button} ${styles.button}`}
           >
             {blogBackToHomepage}

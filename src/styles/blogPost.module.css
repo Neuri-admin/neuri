@@ -42,6 +42,12 @@
   color: rgb(239, 146, 180);
 }
 
+@media (max-width: 1024px) {
+  .nav_bg {
+    height: 10vh;
+  }
+}
+
 @media (max-width: 800px) {
   .width_wrapper {
     padding: 2em 0;

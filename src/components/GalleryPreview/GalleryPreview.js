@@ -4,7 +4,6 @@ import styles_global from '../../styles/global.module.css'
 
 import { graphql, useStaticQuery } from "gatsby"
 
-import LocalizedLink from '../LocalizedLink'
 import useTranslations from '../useTranslations';
 
 const GalleryPreview = ({ title, year }) => {
@@ -41,7 +40,7 @@ const GalleryPreview = ({ title, year }) => {
                     <img key={index} className={styles.image} src={image.node.secure_url} alt={`gallery ${index}`} />
                 ))}
             </section>
-            <LocalizedLink to={`/${archiveGalleryUrl}`} className={`${styles_global.button} ${styles.button}`}>{archiveGalleryShowMore}</LocalizedLink>
+            <a href={archiveGalleryUrl} target="_blank" rel="noopener noreferrer" className={`${styles_global.button} ${styles.button}`}>{archiveGalleryShowMore}</a>
         </section>
     )
 }

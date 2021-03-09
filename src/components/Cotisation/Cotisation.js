@@ -16,8 +16,6 @@ const Cotisation = () => {
     const { brochures_2 } = cms_2;
     const { brochures_3 } = cms_3;
 
-    console.log(cms_1)
-
     return (
         <>
             <section className={styles.nav_offset} id={cotisationUrl} />

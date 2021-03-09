@@ -63,6 +63,12 @@ padding: 1.5em 0;
     }
 }
 
+@media (max-width: 1024px) {
+    .nav_bg {
+      height: 10vh;
+    }
+  }
+
 @media (max-width: 800px) {
     .wrapper {
         width: 85%;

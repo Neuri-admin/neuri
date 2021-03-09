@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import styles from "./MobileNav.module.css"
 
-import { graphql, useStaticQuery, Link } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "../../utils/fontawesome"
@@ -30,9 +30,9 @@ const MobileNav = () => {
   return (
     <header className={`${styles.wrapper} ${styles.sticky}`}>
       <section>
-        <Link to="/" className={styles.logo_wrapper}>
+        <LocalizedLink to="/" className={styles.logo_wrapper}>
           <Img className={styles.logo} fluid={data.image.childImageSharp.fluid} alt="Neuri logo"/>
-        </Link>
+        </LocalizedLink>
         <FontAwesomeIcon
           icon="bars"
           className={`${

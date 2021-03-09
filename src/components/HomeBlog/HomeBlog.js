@@ -22,7 +22,7 @@ const HomeBlog = () => {
             id
             frontmatter {
               title
-              date(formatString: "DD MMMM, YYYY")
+              date
               description
               thumbnail {
                 childImageSharp {
@@ -46,6 +46,14 @@ const HomeBlog = () => {
   // Filtered by lang and set limit to 3 posts
   const filtered = data.allMarkdownRemark.edges.filter(post => post.node.frontmatter.lang === lang).slice(0, 3)
 
+  // Custom date language formatting
+  const formatDate = postDate => {
+    const dateLang = lang === 'en' ? 'en-EN' : 'hr-HR';
+    const date = new Date(postDate)
+    const dateOptions = { day: 'numeric', month: 'long', year: 'numeric'}
+    return date.toLocaleDateString(dateLang, dateOptions)
+  }
+
   return (
     <>
       <section className={styles.nav_offset} id={newsUrl} />
@@ -63,7 +71,7 @@ const HomeBlog = () => {
                   />
                 </LocalizedLink>
                 <p className={styles.date}>
-                  <i>{node.frontmatter.date}</i>
+                  <i>{formatDate(node.frontmatter.date)}</i>
                 </p>
                 <LocalizedLink to={node.fields.slug}>
                   <h4 className={styles.title}>{node.frontmatter.title}</h4>
@@ -85,3 +93,5 @@ const HomeBlog = () => {
 }
 
 export default HomeBlog
+
+// (formatString: "DD MMMM, YYYY")
