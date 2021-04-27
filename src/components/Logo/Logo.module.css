@@ -27,9 +27,16 @@
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 390px) {
     .wrapper {
-        /* width: 7em; */
+        width: 8em;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 370px) {
+    .wrapper {
+        width: 65%;
         margin: 0 auto;
     }
 }

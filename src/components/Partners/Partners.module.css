@@ -63,3 +63,9 @@
         column-gap: 0;
     }
 }
+
+@media (max-width: 370px) {
+    .slideshow {
+        grid-template-columns: 1fr;
+    }
+}
