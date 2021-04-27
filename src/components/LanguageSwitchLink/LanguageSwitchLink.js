@@ -3,7 +3,7 @@ import { Link } from 'gatsby'
 import { useLocale } from '../../hooks/locale';
 // import useLanguageMapping from '../useLanguageMapping';
 
-const LanguageSwitchLink = () => {
+const LanguageSwitchLink = ({isOpen, setIsOpen }) => {
   // Grab the locale (passed through context) from the Locale Provider 
   // through useLocale() hook
   const { locale } = useLocale();
@@ -12,7 +12,9 @@ const LanguageSwitchLink = () => {
   const localeLink = (locale === 'hr') ? '/en' : '/';
 
   return (
-    <Link to={localeLink}>{notSelectedLang}</Link>
+    <Link
+      to={localeLink}
+      onClick={() => setIsOpen(isOpen => !isOpen)}>{notSelectedLang}</Link>
   );
 };
 

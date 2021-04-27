@@ -47,11 +47,12 @@ const MobileNav = () => {
             key={`${menu.link}${index}`}
             to={menu.link}
             aria-label={menu.name}
+            onClick={() => setIsOpen(isOpen => !isOpen)}
           >
             {menu.name}
           </LocalizedLink>
         ))}
-        <LanguageSwitchLink />
+        <LanguageSwitchLink isOpen={isOpen} setIsOpen={setIsOpen}/>
       </nav>
     </header>
   )
