@@ -122,4 +122,8 @@
     .brochure_grid {
         width: 100%;
     }
+
+    .brochure_title {
+        font-size: 1.15em;
+    }
 }
