@@ -8,8 +8,6 @@ import useTranslations from '../useTranslations';
 
 const GalleryPreview = ({ title, year }) => {
 
-    console.log(year)
-
     const { archiveGalleryUrl, archiveGalleryShowMore } = useTranslations();
 
     const data = useStaticQuery(

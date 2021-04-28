@@ -5,13 +5,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import useTranslations from '../useTranslations'
 import cms from '../../../cms/footer.yml'
 
+import { useLocation } from "@reach/router"
+
 const Footer = () => {
   const { footerCopyright } = useTranslations()
 
+  const { pathname } = useLocation();
+  
   const { fb_link, ig_link } = cms
 
   return (
-    <footer className={styles.width_wrapper}>
+    <footer style={(pathname === '/' || pathname === '/en/') ? { backgroundColor: 'rgb(83, 186, 103)' } : null} className={styles.width_wrapper}>
       <section className={styles.wrapper}>
         <section className={styles.social}>
           <a
