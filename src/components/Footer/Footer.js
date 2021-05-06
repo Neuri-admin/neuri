@@ -10,6 +10,7 @@ import { useLocation } from "@reach/router"
 const Footer = () => {
   const { footerCopyright } = useTranslations()
 
+  // pathname is used to selectively change footer background color, green/pink
   const { pathname } = useLocation();
   
   const { fb_link, ig_link } = cms
