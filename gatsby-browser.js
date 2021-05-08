@@ -4,6 +4,8 @@ import "fontsource-roboto"
 
 import "prismjs/themes/prism.css"
 
-import CustomLayout from './wrapPageElement';
+import rootElement from './wrapRootElement';
+import pageElement from './wrapPageElement';
 
-export const wrapPageElement = CustomLayout;
+export const wrapRootElement = rootElement;
+export const wrapPageElement = pageElement;

@@ -1,13 +1,13 @@
 import React from 'react'
 
-import AppProvider from './src/hooks';
+// import AppProvider from './src/hooks';
 import Layout from './src/components/Layout/Layout'
 
 const wrapPageElement = ({ element, props }) => {
     return (
-        <AppProvider>
+        // <AppProvider>
             <Layout {...props}>{element}</Layout>
-        </AppProvider>
+        // </AppProvider>
     )
 }
 
