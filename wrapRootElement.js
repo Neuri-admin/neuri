@@ -3,7 +3,7 @@ import React from 'react'
 import AppProvider from './src/hooks';
 import Layout from './src/components/Layout/Layout'
 
-const wrapRootElement = ({ element, props }) => {
+const wrapPageElement = ({ element, props }) => {
     return (
         <AppProvider>
             <Layout {...props}>{element}</Layout>
@@ -11,4 +11,4 @@ const wrapRootElement = ({ element, props }) => {
     )
 }
 
-export default wrapRootElement  
+export default wrapPageElement  
