@@ -13,8 +13,6 @@ export const wrapRootElement = ({ element }) => {
 
 export const wrapPageElement = ({ element, props }) => {
     return (
-        // <AppProvider>
-            <Layout {...props}>{element}</Layout>
-        // </AppProvider>
+        <Layout {...props}>{element}</Layout>
     )
 } 

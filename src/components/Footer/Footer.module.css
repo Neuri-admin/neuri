@@ -1,3 +1,7 @@
+.footer_hide {
+  opacity: 0;
+}
+
 .width_wrapper {
   background-color: rgb(239, 146, 180);
   padding-bottom: 3em;
