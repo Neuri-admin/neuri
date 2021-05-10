@@ -67,8 +67,6 @@ const HomeHeader = () => {
         return () => clearTimeout(timer);
     });
 
-    console.log('wraprootelement')
-
     return (
         <section className={styles.wrapper}>
             <section className={styles.main}>

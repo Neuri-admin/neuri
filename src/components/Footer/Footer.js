@@ -26,7 +26,7 @@ const Footer = () => {
   }, [])
 
   return (
-    <footer style={(pathname === '/' || pathname === '/en/') ? { backgroundColor: 'rgb(83, 186, 103)' } : null}
+    <footer style={(pathname === '/' || pathname === '/en' || pathname === '/en/') ? { backgroundColor: 'rgb(83, 186, 103)' } : null}
       className={`${styles.width_wrapper} ${hide ? styles.footer_hide : null}`}>
       <section className={styles.wrapper}>
         <section className={styles.social}>

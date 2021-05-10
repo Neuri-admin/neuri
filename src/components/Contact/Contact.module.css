@@ -78,7 +78,11 @@
 }
 
 .contact_item_wrapper a {
-    color: rgb(239, 146, 180);
+    color: #FFFFFF;
+}
+
+.contact_item_wrapper a:hover {
+    text-decoration: underline;
 }
 
 .icon {
