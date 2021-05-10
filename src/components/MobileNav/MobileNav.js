@@ -35,6 +35,7 @@ const MobileNav = () => {
         </LocalizedLink>
         <FontAwesomeIcon
           icon="bars"
+          width="25"
           className={`${
             isOpen ? styles.hamburger_menu_clicked : styles.hamburger_menu
           }`}
