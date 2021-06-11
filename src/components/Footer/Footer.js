@@ -1,18 +1,19 @@
 import React, { useState, useEffect } from "react"
+import { useLocation } from "@reach/router"
 import styles from "./Footer.module.css"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import useTranslations from '../useTranslations'
 import cms from '../../../cms/footer.yml'
 
-import { useLocation } from "@reach/router"
 
 const Footer = () => {
   const { footerCopyright } = useTranslations()
 
   const { fb_link, ig_link } = cms
 
-  // pathname is used to selectively change footer background color, green/pink
+  // pathname/location is used to selectively change footer background color, green/pink
+  const location = useLocation();
   const { pathname } = useLocation();
 
   // Gets rid of the bug which flashes footer before content on initial load
@@ -26,7 +27,7 @@ const Footer = () => {
   }, [])
 
   return (
-    <footer style={(pathname === '/' || pathname === '/en' || pathname === '/en/') ? { backgroundColor: 'rgb(83, 186, 103)' } : null}
+    <footer style={(pathname === '/' || pathname === '/en' || pathname === '/en/' || location.key === 'initial') ? { backgroundColor: 'rgb(83, 186, 103)' } : null}
       className={`${styles.width_wrapper} ${hide ? styles.footer_hide : null}`}>
       <section className={styles.wrapper}>
         <section className={styles.social}>
