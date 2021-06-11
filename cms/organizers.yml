@@ -101,7 +101,7 @@ team:
     role_hr: Koordinator znanstvene logistike
   - role_hr: Koordinatorica znanstvene logistike
     role_en: Scientific Logistics Coordinators
-    image: assets/images/karla_havidić.jpeg
+    image: assets/images/karla_havidić.jpg
     description_hr: Ja sam Karla Havidić. Dolazim iz Velike Gorice i studentica sam
       treće godine medicine. U slobodno vrijeme bavim se plesom i uživam u
       druženju s pozitivnim ljudima. Neuroznanost mi postavlja zanimljivo
@@ -120,7 +120,7 @@ team:
     description_en: Moje ime je Petra Petanjek i studentica sam medicine u Rijeci.
       Kada nisam zaokupljena faksom, volim piti kave s frendovima i gledati
       filmove.
-    image: assets/images/petra_petanjek-.jpeg
+    image: assets/images/petra_petanjek-.jpg
     role_en: Resources Coordinator
     role_hr: Koordinatorica resursa
   - name: Marija Grković
@@ -168,7 +168,7 @@ team:
       Rijeci. Dolazim sa otoka Cresa. Zanima me neuroznanost zbog čega i jesam
       dio ovog kongresa. Slobodno vrijeme volim provoditi u prirodi, baviti se
       sportom i planinariti.
-    image: assets/images/marija_mužić.jpeg
+    image: assets/images/marija_mužić.jpg
     role_en: Participant Coordinator
     role_hr: Koordinatorica sudionika
   - name: Silvestar Mežnarić
@@ -212,7 +212,7 @@ team:
       se studentskim aktivizmom od svoje prve godine i to mi je posebna strast.
       Osim toga jako volim putovanja, upoznavanje novih ljudi i stjecanje novih
       iskustava 🙂
-    image: assets/images/magda_gajski.jpeg
+    image: assets/images/magda_gajski.jpg
     role_en: Social Network Coordinator
     role_hr: Koordinatorica za društvene mreže
   - name: Christina Isabell Jukić
