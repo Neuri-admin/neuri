@@ -13,7 +13,6 @@ const Footer = () => {
   const { fb_link, ig_link } = cms
 
   // pathname/location is used to selectively change footer background color, green/pink
-  const location = useLocation();
   const { pathname } = useLocation();
 
   // Gets rid of the bug which flashes footer before content on initial load
@@ -27,7 +26,7 @@ const Footer = () => {
   }, [])
 
   return (
-    <footer style={(pathname === '/' || pathname === '/en' || pathname === '/en/' || location.key === 'initial') ? { backgroundColor: 'rgb(83, 186, 103)' } : null}
+    <footer style={(pathname.length >= 5) ? {backgroundColor: 'rgb(239, 146, 180)'} : null}
       className={`${styles.width_wrapper} ${hide ? styles.footer_hide : null}`}>
       <section className={styles.wrapper}>
         <section className={styles.social}>
